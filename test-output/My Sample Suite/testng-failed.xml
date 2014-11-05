@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <test name="Running test 2(failed)">
+    <classes>
+      <class name="test_2">
+        <methods>
+          <include name="testCapturescreeshot"/>
+        </methods>
+      </class> <!-- test_2 -->
+      <class name="test_1">
+        <methods>
+          <include name="closeDB"/>
+          <include name="Closebrowser"/>
+          <include name="stopSeleniumserver"/>
+          <include name="Openbrowser"/>
+          <include name="openDb"/>
+          <include name="runSeleniumserver"/>
+        </methods>
+      </class> <!-- test_1 -->
+    </classes>
+  </test> <!-- Running test 2(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+
+
+
+<test name="Login test 1">
+    <classes>
+        <class name="test_1" ></class>  
+    </classes>
+</test>
+
+<test name="Running test 2">
+    <classes>
+        <class name="test_2" ></class>  
+    </classes>
+</test>
+
+<test name="Running test 3">
+    <classes>
+        <class name="testFormfill" ></class>  
+    </classes>
+</test>
+</suite>

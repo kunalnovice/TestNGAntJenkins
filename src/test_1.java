@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 
 public class test_1 {
-//random comment
+
 	
 	@Test
 	public void testLogin(){
